@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework</title>
+    <style>
+        td{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <table border="1" id="tbl">
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+  function table () {
+      let table = document.getElementById("tbl");
+      let tr = ``;
+
+      for(let i = 1; i < 4; i++){
+         tr += `<tr>`;
+
+            for(let y = 1; y<4; y++){
+                tr +=  `<td> ${i} ${y} </td>`;
+            }
+            tr += `</tr>`; 
+      }
+
+     table.innerHTML = tr
+    
+  }
+
+  table();
+
+
+    </script>
+    
+</body>
+</html>
