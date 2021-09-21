@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --green:#2dcb71;
+    --open: 'Open Sans', sans-serif;
+}
+
+.container-head{
+    max-width: 870px;
+    margin: auto;
+}
+
+.green-hr{
+    background-color: var(--green);
+    height: 10px;
+}
+
+header{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1510px;
+}
+
+header p{
+font: 500 24px var(--open);
+width: 469px;
+line-height: 36px;
+color: #ffffff;
+}
+
+header img{
+    margin-top: 165px;
+}
+
+header .container{
+    padding-left: 115px;
+}
+
+header a{
+position: relative;
+    display: inline-block;
+    width: 52px;
+height: 52px;
+border-radius: 50%;
+background-color: #000;
+opacity: 0.5;
+
+}
+
+header a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+
+header a:hover{
+    background-color: var(--green);
+    opacity: 1;
+}
+
+header .social{
+    padding-bottom: 200px;
+}
+
+
+
+.container{
+    max-width: 1200px; 
+}
+
+#head{
+    background-color: #ffffff;
+    padding-top: 54px;
+}
+
+#head a {
+    position: relative;
+    display: inline-block;
+    left: 30%;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: var(--green);
+    opacity: 1;
+}
+
+
+#head a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    font-size: 48px;
+    transform: translate(-50%, -50%);
+}
+   
+
+#head h1{
+    font-size: 22px;
+line-height: 18px;
+color: #222222;
+font-weight: 600;
+font-family: "Raleway";
+margin: 35px 0 0 90px;
+
+
+}
+
+#head p{
+   
+   margin-top: 25px;
+    width: 358px;
+    height: 130px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-family: "Helvetica Neue";
+    text-align: center;
+}
+
+
+
+#updates{
+    width: 1510px;
+height: 427px;
+background-color: #e3e3e3;
+}
+
+#updates p{
+    margin-top: 25px;
+    width: 541px;
+    height: 120px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-family: "Helvetica Neue";
+    text-align: start;
+}
+
+#video{
+    margin-right: 10%;
+    width: 500px;
+height: 307px;
+border-radius: 8px;
+background-color: #c5c5c5;
+}
+
+
+input{
+    width: 446px;
+    height: 56px;
+    border-radius: 15px 0 0 15px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 18px;
+color: #848484;
+font-family: "Helvetica Neue";
+padding-left: 25px;
+}
+
+button {
+    width: 141px;
+    height: 56px;
+    border-radius: 0 15px 15px 0;
+    background-color: #2ecc71;
+    font-size: 22px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Raleway";
+border: none;
+    
+}
+
+
+#content h2{
+    text-align: center;
+    margin-right: 350px;
+}
+#content p{
+    width: 887px;
+height: 103px;
+font-size: 18px;
+line-height: 30px;
+color: #848484;
+font-style: italic;
+font-family: "Helvetica Neue";
+text-align: center;
+margin-top: 60px;
+} 
+
+.photo img{
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+
+
+.row h2{
+    font-size: 24px;
+line-height: 24px;
+color: #000000;
+font-weight: 600;
+font-family: "Raleway";
+text-align: center;
+
+}
+
+.row p{
+    font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-family: "Helvetica Neue";
+}
+
+#icons{
+
+    margin-right: 300px;
+}
+.row a {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+height: 52px;
+border-radius: 50%;
+background-color: #000;
+opacity: 0.5;
+margin-right: 10px;
+
+ 
+}
+
+.row a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+}
+
+
+#icons a:hover{
+    background-color: var(--green);
+    opacity: 1;
+
+}
+
+footer{
+height: 132px;
+background-color: #e3e3e3;
+}
+
+
+#ftr{
+    font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-family: "Helvetica Neue";
+flex-direction: row;
+}
